@@ -1,0 +1,4 @@
+Types of Monsters:
+Vampire
+Wolfman
+Zombie
