@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9636e2e14f754323a38774838c8d467, type: 3}
+  m_Name: Conversation_A
+  m_EditorClassIdentifier: 
+  monsterTemplate: {fileID: 11400000, guid: 3f4624ad44d4849468adc0bb182447cb, type: 2}
+  Dialog: Let's get spooky tonight.
+  reponses:
+  - Sure. [Example]
+  - No. [Example]
+  - What does that mean? [Example]
+  valueOfReponses: 01000000ffffffff00000000
+  branchConversations:
+  - {fileID: 11400000, guid: 711ae57fa4d964cae996f8c36119dd07, type: 2}
+  - {fileID: 11400000, guid: 92f6a9b217ee14cb4ae436e00abc98d2, type: 2}
+  - {fileID: 11400000, guid: 7afb21f003367468e9a16850369593e1, type: 2}

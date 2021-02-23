@@ -10,12 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9636e2e14f754323a38774838c8d467, type: 3}
-  m_Name: New Conversation
+  m_Name: Conversation_B
   m_EditorClassIdentifier: 
-  monsterTemplate: {fileID: 0}
-  Dialog: 
+  monsterTemplate: {fileID: 11400000, guid: 3f4624ad44d4849468adc0bb182447cb, type: 2}
+  Dialog: Let's get spooky tonight.
   reponses:
-  - Yes [Example]
-  - No [Example]
+  - Sure. [Example]
+  - No. [Example]
   - What does that mean? [Example]
-  reponseScoreValue: 01000000ffffffff00000000
+  valueOfReponses: 01000000ffffffff00000000
+  branchConversations:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
