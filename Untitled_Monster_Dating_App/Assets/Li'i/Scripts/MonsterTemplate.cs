@@ -8,7 +8,7 @@ public class MonsterTemplate : ScriptableObject
 {
     public enum CharacterType{ vampire, werewolf, killer, alien, zombie, clown, other}
     [Header("The character's REAL type:")]
-    public CharacterType monstersType = CharacterType.other;
+    public CharacterType monsterType = CharacterType.other;
     public Texture profileImage;
     public string name;
     public string username;
