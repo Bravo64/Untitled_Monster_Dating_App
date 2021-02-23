@@ -21,7 +21,6 @@ public class MonsterTemplate : ScriptableObject
     public int intelligence = 5;
     [UnityEngine.Range(0, 10)]
     public int humor = 5;
-    public bool isAVampire = false;
     public string[] likes = new string[] {"Pizza [Example]", "Sushi [Example]", "Long walks [Example]"};
     public string[] dislikes = new string[] {"Jogging [Example]", "Fish [Example]", "Stakes [Example]"};
 }
