@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9636e2e14f754323a38774838c8d467, type: 3}
-  m_Name: Conversation_C
+  m_Name: Conversation_E
   m_EditorClassIdentifier: 
   monsterTemplate: {fileID: 11400000, guid: 3f4624ad44d4849468adc0bb182447cb, type: 2}
-  Dialog: Let's get spooky tonight.
+  Dialog: Let's get spooky tonight. [Example]
   reponses:
   - Sure. [Example]
   - No. [Example]

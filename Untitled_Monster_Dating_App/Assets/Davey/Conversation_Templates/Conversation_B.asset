@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Conversation_B
   m_EditorClassIdentifier: 
   monsterTemplate: {fileID: 11400000, guid: 3f4624ad44d4849468adc0bb182447cb, type: 2}
-  Dialog: Let's get spooky tonight.
+  Dialog: Let's get spooky tonight. [Example]
   reponses:
   - Sure. [Example]
   - No. [Example]
